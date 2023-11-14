@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+   
+</head>
+<body>
+
+    <nav>
+        <a class="logo" href="/">Kanagawa</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Pratos</a></li>
+          <li><a href="#">Sobremesas</a></li>
+          <li><a href="#">Alcóolicos</a></li>
+          <li><a href="#">bebidas</a></li>
+        </ul>
+      </nav>
+    <main></main>
+    <script src="mobile-navbar.js"></script>
+
+    <style TYPE="text/css">
+        body {background-image: url(images/bg.png); }
+    </style>
+
+<div class="container">
+
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">Kanagawa</h3>
+
+                <div class="inputBox">
+                    <span>Nome :</span>
+                    <input type="text" placeholder="insira o nome a chamar">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email" placeholder="example@example.com">
+                </div>
+                <div class="inputBox">
+                    <span>Bairro :</span>
+                    <input type="text" placeholder="insira seu bairro">
+                </div>
+                <div class="inputBox">
+                    <span>CPF :</span>
+                    <input type="text" placeholder="insira seu CPF">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Número da casa :</span>
+                        <input type="text" placeholder="n° da casa">
+                    </div>
+                    <div class="inputBox">
+                        <span>Cupom :</span>
+                        <input type="text" placeholder="Cupom">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="pagamento" id="pix" value="pix">
+                        <label class="form-check-label" for="pix">PIX</label>
+                        <IMG class="form-check" src="images/logo-pix.png" alt="PIX">
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="pagamento" id="pagar-na-entrega" value="pagar-na-entrega">
+                        <label class="form-check-label" for="pagar-na-entrega">Pagar na Entrega</label>
+                    </div>
+                </div>
+
+                <div class="inputBox">
+                    <span>complemento :</span>
+                    <input type="text" placeholder="insira um complemento">
+                </div>
+
+                <div class="inputBox">
+                    <div class="inputBox">
+                        <span>Rua :</span>
+                        <input type="text" placeholder="insira a sua rua">
+                    </div>
+                 
+            </div>
+    
+        </div>
+
+        <input type="submit" value="confirma" class="submit-btn">
+
+    </form>
+
+</div>    
+    
+</body>
+</html>
